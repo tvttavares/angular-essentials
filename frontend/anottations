@@ -36,3 +36,12 @@ ng g c view/home
 
 -- product component
 ng g c view/product-crud
+
+-- create product component
+ng g c components/product/product-create
+
+-- creating product service
+ng g s components/product/product
+
+-- product read
+ng g c components/product/product-read

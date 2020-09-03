@@ -19,7 +19,11 @@ import { HomeComponent } from './view/home/home.component';
 import { ProductCrudComponent } from './view/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component'
 
-import { HttpClientModule} from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http'
+
+import { FormsModule } from '@angular/forms'
+import { MatFormFieldModule } from '@angular/material/form-field'
+import { MatInputModule } from '@angular/material/input'
 
 @NgModule({
   declarations: [
@@ -41,7 +45,10 @@ import { HttpClientModule} from '@angular/common/http'
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
