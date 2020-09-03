@@ -49,3 +49,9 @@ ng g c components/product/product-read
 -- creating table
 ng generate @angular/material:table <component-name>
 ng generate @angular/material:table components/product/product-read2
+
+-- product update
+ng g c components/product/product-update
+
+-- product delete
+ng g c components/product/product-delete
