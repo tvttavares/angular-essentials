@@ -1,0 +1,8 @@
+-- project creation
+npm init -y
+
+-- installing json server
+npm i json-server
+
+-- starting the backend
+npm start
