@@ -15,6 +15,21 @@ npm start
           "inlineStyle": false,
           "skipTests": true
 
--- Installing material
+-- Installing angular material
 ng add @angular/material
 -> choose theme
+-> global typology ? yes
+-> animations ? yes
+
+-- generating component
+-- header
+ng g c components/template/header
+
+-- footer
+ng g c components/template/footer
+
+-- nav
+ng g c components/template/nav
+
+-- home 
+ng g c view/home
