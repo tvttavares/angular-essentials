@@ -18,6 +18,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HomeComponent } from './view/home/home.component';
 import { ProductCrudComponent } from './view/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component'
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 import { HttpClientModule } from '@angular/common/http'
 
@@ -33,7 +34,8 @@ import { MatInputModule } from '@angular/material/input'
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
