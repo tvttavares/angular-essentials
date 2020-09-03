@@ -1,0 +1,16 @@
+-- angular command line interface (cli)
+npm i -g @angular/cli
+
+-- creating the project
+ng new frontend --minimal
+routes -> yes
+css -> yes
+
+-- initializing the application
+npm start
+
+-- angulas.json
+"@schematics/angular:component": {
+          "inlineTemplate": false,
+          "inlineStyle": false,
+          "skipTests": true
