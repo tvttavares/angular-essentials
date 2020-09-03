@@ -14,3 +14,7 @@ npm start
           "inlineTemplate": false,
           "inlineStyle": false,
           "skipTests": true
+
+-- Installing material
+ng add @angular/material
+-> choose theme
