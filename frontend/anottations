@@ -33,3 +33,6 @@ ng g c components/template/nav
 
 -- home 
 ng g c view/home
+
+-- product component
+ng g c view/product-crud
