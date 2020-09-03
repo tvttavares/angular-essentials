@@ -45,3 +45,7 @@ ng g s components/product/product
 
 -- product read
 ng g c components/product/product-read
+
+-- creating table
+ng generate @angular/material:table <component-name>
+ng generate @angular/material:table components/product/product-read2
