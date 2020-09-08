@@ -33,7 +33,9 @@ import { MatInputModule } from '@angular/material/input'
 import { MatTableModule } from '@angular/material/table';
 
 import localePT from '@angular/common/locales/pt'
-import { registerLocaleData } from '@angular/common'
+import { registerLocaleData } from '@angular/common';
+import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive'
 
 registerLocaleData(localePT)
 
@@ -49,7 +51,9 @@ registerLocaleData(localePT)
     ProductReadComponent,
     ProductRead2Component,
     ProductUpdateComponent,
-    ProductDeleteComponent
+    ProductDeleteComponent,
+    RedDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,
